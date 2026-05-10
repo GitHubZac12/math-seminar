@@ -1,4 +1,4 @@
-# SANA Breast Cancer Risk Modeling Project
+# SANA Initiative Breast Cancer Risk Modeling Project
 
 This folder contains a cleaned, validated Python workflow for exploratory breast-cancer mortality risk modeling in San Luis Potosí (SLP), Mexico. The current workflow builds a municipality-level analytic dataset, engineers environmental exposure features, fits baseline and Bayesian count models, and exports map/dashboard-ready outputs.
 
