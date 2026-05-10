@@ -1,0 +1,57 @@
+path,name,suffix,parent
+.vscode\settings.json,settings.json,.json,.vscode
+Datos Nacionales\BaseNacional-Ladr-Agua-Mina.xlsx,BaseNacional-Ladr-Agua-Mina.xlsx,.xlsx,Datos Nacionales
+Datos Nacionales\AGUA\Calidad del Agua Subterranea 2020.xlsx,Calidad del Agua Subterranea 2020.xlsx,.xlsx,Datos Nacionales\AGUA
+Datos Nacionales\MORTALIDAD\Mortalidad_05.xlsx,Mortalidad_05.xlsx,.xlsx,Datos Nacionales\MORTALIDAD
+Datos Nacionales\POBLACION\ITER_01XLSX20.xlsx,ITER_01XLSX20.xlsx,.xlsx,Datos Nacionales\POBLACION
+Datos Nacionales\POBLACION\ITER_02XLSX20.xlsx,ITER_02XLSX20.xlsx,.xlsx,Datos Nacionales\POBLACION
+Datos Nacionales\POBLACION\ITER_03XLSX20.xlsx,ITER_03XLSX20.xlsx,.xlsx,Datos Nacionales\POBLACION
+Datos Nacionales\POBLACION\ITER_04XLSX20.xlsx,ITER_04XLSX20.xlsx,.xlsx,Datos Nacionales\POBLACION
+Datos Nacionales\POBLACION\ITER_05XLSX20.xlsx,ITER_05XLSX20.xlsx,.xlsx,Datos Nacionales\POBLACION
+Datos Nacionales\POBLACION\ITER_06XLSX20.xlsx,ITER_06XLSX20.xlsx,.xlsx,Datos Nacionales\POBLACION
+Datos Nacionales\POBLACION\ITER_07XLSX20.xlsx,ITER_07XLSX20.xlsx,.xlsx,Datos Nacionales\POBLACION
+Datos Nacionales\POBLACION\ITER_08XLSX20.xlsx,ITER_08XLSX20.xlsx,.xlsx,Datos Nacionales\POBLACION
+Datos Nacionales\POBLACION\ITER_09XLSX20.xlsx,ITER_09XLSX20.xlsx,.xlsx,Datos Nacionales\POBLACION
+Datos Nacionales\POBLACION\ITER_10XLSX20.xlsx,ITER_10XLSX20.xlsx,.xlsx,Datos Nacionales\POBLACION
+Datos Nacionales\POBLACION\ITER_11XLSX20.xlsx,ITER_11XLSX20.xlsx,.xlsx,Datos Nacionales\POBLACION
+Datos Nacionales\POBLACION\ITER_12XLSX20.xlsx,ITER_12XLSX20.xlsx,.xlsx,Datos Nacionales\POBLACION
+Datos Nacionales\POBLACION\ITER_13XLSX20.xlsx,ITER_13XLSX20.xlsx,.xlsx,Datos Nacionales\POBLACION
+Datos Nacionales\POBLACION\ITER_14XLSX20.xlsx,ITER_14XLSX20.xlsx,.xlsx,Datos Nacionales\POBLACION
+Datos Nacionales\POBLACION\ITER_15XLSX20.xlsx,ITER_15XLSX20.xlsx,.xlsx,Datos Nacionales\POBLACION
+Datos Nacionales\POBLACION\ITER_16XLSX20.xlsx,ITER_16XLSX20.xlsx,.xlsx,Datos Nacionales\POBLACION
+Datos Nacionales\POBLACION\ITER_17XLSX20.xlsx,ITER_17XLSX20.xlsx,.xlsx,Datos Nacionales\POBLACION
+Datos Nacionales\POBLACION\ITER_18XLSX20.xlsx,ITER_18XLSX20.xlsx,.xlsx,Datos Nacionales\POBLACION
+Datos Nacionales\POBLACION\ITER_19XLSX20.xlsx,ITER_19XLSX20.xlsx,.xlsx,Datos Nacionales\POBLACION
+Datos Nacionales\POBLACION\ITER_20XLSX20.xlsx,ITER_20XLSX20.xlsx,.xlsx,Datos Nacionales\POBLACION
+Datos Nacionales\POBLACION\ITER_21XLSX20.xlsx,ITER_21XLSX20.xlsx,.xlsx,Datos Nacionales\POBLACION
+Datos Nacionales\POBLACION\ITER_22XLSX20.xlsx,ITER_22XLSX20.xlsx,.xlsx,Datos Nacionales\POBLACION
+Datos Nacionales\POBLACION\ITER_23XLSX20.xlsx,ITER_23XLSX20.xlsx,.xlsx,Datos Nacionales\POBLACION
+Datos Nacionales\POBLACION\ITER_24XLSX20.xlsx,ITER_24XLSX20.xlsx,.xlsx,Datos Nacionales\POBLACION
+Datos Nacionales\POBLACION\ITER_25XLSX20.xlsx,ITER_25XLSX20.xlsx,.xlsx,Datos Nacionales\POBLACION
+Datos Nacionales\POBLACION\ITER_26XLSX20.xlsx,ITER_26XLSX20.xlsx,.xlsx,Datos Nacionales\POBLACION
+Datos Nacionales\POBLACION\ITER_27XLSX20.xlsx,ITER_27XLSX20.xlsx,.xlsx,Datos Nacionales\POBLACION
+Datos Nacionales\POBLACION\ITER_28XLSX20.xlsx,ITER_28XLSX20.xlsx,.xlsx,Datos Nacionales\POBLACION
+Datos Nacionales\POBLACION\ITER_29XLSX20.xlsx,ITER_29XLSX20.xlsx,.xlsx,Datos Nacionales\POBLACION
+Datos Nacionales\POBLACION\ITER_30XLSX20.xlsx,ITER_30XLSX20.xlsx,.xlsx,Datos Nacionales\POBLACION
+Datos Nacionales\POBLACION\ITER_31XLSX20.xlsx,ITER_31XLSX20.xlsx,.xlsx,Datos Nacionales\POBLACION
+Datos Nacionales\POBLACION\ITER_32XLSX20.xlsx,ITER_32XLSX20.xlsx,.xlsx,Datos Nacionales\POBLACION
+Datos Nacionales\POBLACION\pop_by_state.xlsx,pop_by_state.xlsx,.xlsx,Datos Nacionales\POBLACION
+Datos Nacionales\POBLACION_old\INEGI_exporta_17_10_2025_7_22_27.xls,INEGI_exporta_17_10_2025_7_22_27.xls,.xls,Datos Nacionales\POBLACION_old
+Datos Nacionales\POBLACION_old\INEGI_exporta_pop.xls,INEGI_exporta_pop.xls,.xls,Datos Nacionales\POBLACION_old
+Datos Nacionales\POBLACION_old\proyecciones de poblacion.xlsx,proyecciones de poblacion.xlsx,.xlsx,Datos Nacionales\POBLACION_old
+Datos SLP\AmbientalAGUA.xlsx,AmbientalAGUA.xlsx,.xlsx,Datos SLP
+Datos SLP\AmbientalLADRILLERAS.xlsx,AmbientalLADRILLERAS.xlsx,.xlsx,Datos SLP
+Datos SLP\AmbientalMinasMetales.xlsx,AmbientalMinasMetales.xlsx,.xlsx,Datos SLP
+Datos SLP\AmbientalRETC.xlsx,AmbientalRETC.xlsx,.xlsx,Datos SLP
+Datos SLP\MortalidadCAMA.xlsx,MortalidadCAMA.xlsx,.xlsx,Datos SLP
+Datos SLP\MortalidadLLA.xlsx,MortalidadLLA.xlsx,.xlsx,Datos SLP
+Datos SLP\shapefiles\11-Guanajuato.json,11-Guanajuato.json,.json,Datos SLP\shapefiles
+Datos SLP\shapefiles\24-SLP.geojson,24-SLP.geojson,.geojson,Datos SLP\shapefiles
+Datos SLP\shapefiles\24-San Luis Potosí.json,24-San Luis Potosí.json,.json,Datos SLP\shapefiles
+Datos SLP\shapefiles\mexico_by_estado.json,mexico_by_estado.json,.json,Datos SLP\shapefiles
+merida-data\Fuentes Contam\FTES-CONTAMmer.xlsx,FTES-CONTAMmer.xlsx,.xlsx,merida-data\Fuentes Contam
+merida-data\Incidencia\CASOS-CAMAmer.xlsx,CASOS-CAMAmer.xlsx,.xlsx,merida-data\Incidencia
+merida-data\Incidencia\CASOS-LLAmer.xlsx,CASOS-LLAmer.xlsx,.xlsx,merida-data\Incidencia
+merida-data\Mortalidad\MORT-CAMAmer.xlsx,MORT-CAMAmer.xlsx,.xlsx,merida-data\Mortalidad
+merida-data\Mortalidad\MORT-LLAmer.xlsx,MORT-LLAmer.xlsx,.xlsx,merida-data\Mortalidad
+merida-data\PoligonoYucMunicipios\shapefileInegiMérida1.shp,shapefileInegiMérida1.shp,.shp,merida-data\PoligonoYucMunicipios

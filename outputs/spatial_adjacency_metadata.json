@@ -1,0 +1,19 @@
+{
+  "geo_id_col": "geo_id",
+  "n_nodes": 58,
+  "n_edges": 136,
+  "is_symmetric": true,
+  "diagonal_zero": true,
+  "min_neighbors": 1,
+  "max_neighbors": 10,
+  "mean_neighbors": 4.689655172413793,
+  "isolates_before_connection": [],
+  "isolates_after_connection": [],
+  "n_components_after_connection": 1,
+  "connect_isolates": true,
+  "connect_components": true,
+  "n_artificial_edges": 0,
+  "artificial_edges": [],
+  "projected_epsg": 3857,
+  "spatial_prior_recommendation": "Use ICAR/CAR/BYM-style areal random effects with this adjacency matrix."
+}

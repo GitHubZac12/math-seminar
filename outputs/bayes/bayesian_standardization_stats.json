@@ -1,0 +1,71 @@
+{
+  "feature_stats": {
+    "ambientalagua_kernel_intensity": {
+      "fill_value": 0.0006306942593956,
+      "mean": 0.0008301359581868192,
+      "std": 0.0005276187103077255
+    },
+    "ambientalagua_nearest_source_m": {
+      "fill_value": 36838.1026614322,
+      "mean": 43091.85225134357,
+      "std": 31854.800313636173
+    },
+    "ambientalagua_count_within_10000m": {
+      "fill_value": 0.0,
+      "mean": 0.38596491228070173,
+      "std": 1.0387979889885939
+    },
+    "ambientalladrilleras_kernel_intensity": {
+      "fill_value": 0.0016090886713713,
+      "mean": 0.002703471900529477,
+      "std": 0.002563961315291799
+    },
+    "ambientalladrilleras_nearest_source_m": {
+      "fill_value": 43753.00428340842,
+      "mean": 42160.704288914756,
+      "std": 21141.302936329368
+    },
+    "ambientalminasmetales_kernel_intensity": {
+      "fill_value": 2.077361503236927e-05,
+      "mean": 3.0330152506588625e-05,
+      "std": 3.017083466915738e-05
+    },
+    "ambientalminasmetales_nearest_source_m": {
+      "fill_value": 108751.66511821076,
+      "mean": 135662.9804872147,
+      "std": 89144.85026723551
+    },
+    "ambientalretc_kernel_intensity": {
+      "fill_value": 0.0187976685707759,
+      "mean": 0.027833785150514063,
+      "std": 0.020214254939528636
+    },
+    "ambientalretc_nearest_source_m": {
+      "fill_value": 20649.01288991858,
+      "mean": 23842.85245532103,
+      "std": 16793.946059740214
+    },
+    "ambientalretc_count_within_5000m": {
+      "fill_value": 0.0,
+      "mean": 1.6842105263157894,
+      "std": 5.82841766235972
+    },
+    "ambientalretc_count_within_10000m": {
+      "fill_value": 0.0,
+      "mean": 8.421052631578947,
+      "std": 21.12199100830991
+    }
+  },
+  "control_stats": {
+    "control_age_share_female_60plus_z": {
+      "fill_value": -0.1361512378922517,
+      "mean": -0.007605015505812709,
+      "std": 1.0070696880157755
+    },
+    "control_age_share_female_15_49_z": {
+      "fill_value": 0.0659470295209564,
+      "mean": 0.020543195870685118,
+      "std": 0.996527235778035
+    }
+  }
+}

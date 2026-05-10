@@ -1,0 +1,15 @@
+{
+  "fit_completed": true,
+  "draws": 1000,
+  "tune": 1000,
+  "chains": 2,
+  "n_prediction_rows": 58,
+  "n_likelihood_rows": 57,
+  "divergences": 0,
+  "mean_acceptance_rate": 0.920434986381352,
+  "max_tree_depth": 6,
+  "merged_project_outputs": {
+    "risk_map_with_bayesian_spatial": "risk_map_with_bayesian_spatial.geojson",
+    "risk_cube_with_bayesian_spatial": "risk_cube_with_bayesian_spatial.csv"
+  }
+}

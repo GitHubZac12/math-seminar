@@ -1,0 +1,47 @@
+{
+  "geo_id_col": "geo_id",
+  "outcome_col": "outcome_count_for_model",
+  "population_col": "population",
+  "feature_cols": [
+    "ambientalagua_kernel_intensity",
+    "ambientalagua_nearest_source_m",
+    "ambientalagua_count_within_10000m",
+    "ambientalladrilleras_kernel_intensity",
+    "ambientalladrilleras_nearest_source_m",
+    "ambientalminasmetales_kernel_intensity",
+    "ambientalminasmetales_nearest_source_m",
+    "ambientalretc_kernel_intensity",
+    "ambientalretc_nearest_source_m",
+    "ambientalretc_count_within_5000m",
+    "ambientalretc_count_within_10000m"
+  ],
+  "control_cols": [
+    "control_age_share_female_60plus_z",
+    "control_age_share_female_15_49_z"
+  ],
+  "inclusion_col": "model_inclusion_flag",
+  "bayesian_input_csv": "bayesian_nb_input.csv",
+  "adjacency_matrix_csv": "spatial_adjacency_matrix.csv",
+  "adjacency_metadata_json": "spatial_adjacency_metadata.json",
+  "model": "Bayesian spatial hierarchical negative-binomial disease-mapping model",
+  "spatial_prior": "BYM-style area effect: proper CAR structured spatial random effect plus iid unstructured municipal random effect",
+  "likelihood": "NegativeBinomial(mu, alpha) with female-population offset",
+  "linear_predictor": "log(mu_i) = log(pop_i) + intercept + exposure_beta * X_i + control_gamma * C_i + spatial_structured_i + spatial_unstructured_i",
+  "priors": {
+    "intercept": "Normal(log(crude rate), 2)",
+    "exposure_coefficients": "Normal(0, 0.5), features standardized internally on likelihood rows",
+    "control_coefficients": "Normal(0, 1.0), controls standardized internally on likelihood rows",
+    "car_structured_raw": "CAR(mu=0, W, alpha=0.95, tau=1), centered to mean zero",
+    "structured_spatial_scale": "HalfNormal(0.5)",
+    "unstructured_raw": "Normal(0, 1), centered to mean zero",
+    "unstructured_spatial_scale": "HalfNormal(0.5)",
+    "overdispersion_alpha": "HalfNormal(2)"
+  },
+  "standardization_scope": "likelihood rows only; the same training statistics are applied to all prediction rows",
+  "missing_outcome_policy": "Rows with inclusion_col == 0 are retained for posterior prediction but excluded from the likelihood.",
+  "notes": [
+    "This is now a true Bayesian spatial hierarchical model because it includes a latent areal spatial process.",
+    "The CAR component borrows residual-risk information across neighboring municipalities defined by the adjacency matrix.",
+    "The iid component captures municipality-specific residual heterogeneity that is not spatially structured."
+  ]
+}

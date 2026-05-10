@@ -1,0 +1,32 @@
+{
+  "geo_id_col": "geo_id",
+  "outcome_col": "outcome_count_for_model",
+  "population_col": "population",
+  "feature_cols": [
+    "ambientalagua_kernel_intensity",
+    "ambientalagua_nearest_source_m",
+    "ambientalagua_count_within_10000m",
+    "ambientalladrilleras_kernel_intensity",
+    "ambientalladrilleras_nearest_source_m",
+    "ambientalminasmetales_kernel_intensity",
+    "ambientalminasmetales_nearest_source_m",
+    "ambientalretc_kernel_intensity",
+    "ambientalretc_nearest_source_m",
+    "ambientalretc_count_within_5000m",
+    "ambientalretc_count_within_10000m"
+  ],
+  "control_cols": [
+    "control_age_share_female_60plus_z",
+    "control_age_share_female_15_49_z"
+  ],
+  "inclusion_col": "model_inclusion_flag",
+  "model": "Bayesian negative binomial with population offset and weakly regularizing priors",
+  "priors": {
+    "intercept": "Normal(log(crude rate), 2)",
+    "exposure_coefficients": "Normal(0, 0.5), features standardized internally",
+    "control_coefficients": "Normal(0, 1.0)",
+    "overdispersion_alpha": "HalfNormal(2)"
+  },
+  "standardization_scope": "likelihood rows only; the same training statistics are applied to all prediction rows",
+  "note": "Rows with inclusion_col == 0 are retained for prediction but excluded from the likelihood."
+}

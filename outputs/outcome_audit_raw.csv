@@ -1,0 +1,59 @@
+raw_row_index,cve_ent,cve_mun,nom_ent,nom_mun,geo_id,outcome_count,outcome_key_valid,outcome_count_valid
+0,24,1,San Luis Potosí,Ahualulco del Sonido 13,24001,7.0,True,True
+1,24,2,San Luis Potosí,Alaquines,24002,3.0,True,True
+2,24,3,San Luis Potosí,Aquismón,24003,10.0,True,True
+3,24,4,San Luis Potosí,Armadillo de los Infante,24004,3.0,True,True
+4,24,5,San Luis Potosí,Cárdenas,24005,16.0,True,True
+5,24,6,San Luis Potosí,Catorce,24006,5.0,True,True
+6,24,7,San Luis Potosí,Cedral,24007,6.0,True,True
+7,24,8,San Luis Potosí,Cerritos,24008,21.0,True,True
+8,24,9,San Luis Potosí,Cerro de San Pedro,24009,2.0,True,True
+9,24,10,San Luis Potosí,Ciudad del Maíz,24010,19.0,True,True
+10,24,11,San Luis Potosí,Ciudad Fernández,24011,31.0,True,True
+11,24,12,San Luis Potosí,Tancanhuitz,24012,7.0,True,True
+12,24,13,San Luis Potosí,Ciudad Valles,24013,190.0,True,True
+13,24,14,San Luis Potosí,Coxcatlán,24014,7.0,True,True
+14,24,15,San Luis Potosí,Charcas,24015,5.0,True,True
+15,24,16,San Luis Potosí,Ebano,24016,11.0,True,True
+16,24,17,San Luis Potosí,Guadalcázar,24017,,True,False
+17,24,18,San Luis Potosí,Huehuetlán,24018,2.0,True,True
+18,24,19,San Luis Potosí,Lagunillas,24019,5.0,True,True
+19,24,20,San Luis Potosí,Matehuala,24020,75.0,True,True
+20,24,21,San Luis Potosí,Mexquitic de Carmona,24021,28.0,True,True
+21,24,22,San Luis Potosí,Moctezuma,24022,6.0,True,True
+22,24,23,San Luis Potosí,Rayón,24023,5.0,True,True
+23,24,24,San Luis Potosí,Rioverde,24024,78.0,True,True
+24,24,25,San Luis Potosí,Salinas,24025,17.0,True,True
+25,24,26,San Luis Potosí,San Antonio,24026,0.0,True,True
+26,24,27,San Luis Potosí,San Ciro de Acosta,24027,7.0,True,True
+27,24,28,San Luis Potosí,San Luis Potosí,24028,1244.0,True,True
+28,24,29,San Luis Potosí,San Martín Chalchicuautla,24029,9.0,True,True
+29,24,30,San Luis Potosí,San Nicolás Tolentino,24030,7.0,True,True
+30,24,31,San Luis Potosí,Santa Catarina,24031,4.0,True,True
+31,24,32,San Luis Potosí,Santa María del Río,24032,18.0,True,True
+32,24,33,San Luis Potosí,Santo Domingo,24033,2.0,True,True
+33,24,34,San Luis Potosí,San Vicente Tancuayalab,24034,7.0,True,True
+34,24,35,San Luis Potosí,Soledad de Graciano Sánchez,24035,131.0,True,True
+35,24,36,San Luis Potosí,Tamasopo,24036,12.0,True,True
+36,24,37,San Luis Potosí,Tamazunchale,24037,32.0,True,True
+37,24,38,San Luis Potosí,Tampacán,24038,1.0,True,True
+38,24,39,San Luis Potosí,Tampamolón Corona,24039,6.0,True,True
+39,24,40,San Luis Potosí,Tamuín,24040,17.0,True,True
+40,24,41,San Luis Potosí,Tanlajás,24041,7.0,True,True
+41,24,42,San Luis Potosí,Tanquián de Escobedo,24042,4.0,True,True
+42,24,43,San Luis Potosí,Tierra Nueva,24043,5.0,True,True
+43,24,44,San Luis Potosí,Vanegas,24044,3.0,True,True
+44,24,45,San Luis Potosí,Venado,24045,11.0,True,True
+45,24,46,San Luis Potosí,Villa de Arriaga,24046,6.0,True,True
+46,24,47,San Luis Potosí,Villa de Guadalupe,24047,3.0,True,True
+47,24,48,San Luis Potosí,Villa de la Paz,24048,3.0,True,True
+48,24,49,San Luis Potosí,Villa de Ramos,24049,10.0,True,True
+49,24,50,San Luis Potosí,Villa de Reyes,24050,16.0,True,True
+50,24,51,San Luis Potosí,Villa Hidalgo,24051,15.0,True,True
+51,24,52,San Luis Potosí,Villa Juárez,24052,5.0,True,True
+52,24,53,San Luis Potosí,Axtla de Terrazas,24053,8.0,True,True
+53,24,54,San Luis Potosí,Xilitla,24054,15.0,True,True
+54,24,55,San Luis Potosí,Zaragoza,24055,4.0,True,True
+55,24,56,San Luis Potosí,Villa de Arista,24056,6.0,True,True
+56,24,57,San Luis Potosí,Matlapa,24057,7.0,True,True
+57,24,58,San Luis Potosí,El Naranjo,24058,13.0,True,True

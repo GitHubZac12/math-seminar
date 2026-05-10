@@ -1,0 +1,141 @@
+{
+  "scope": "slp",
+  "polygon_file": "Datos SLP\\shapefiles\\24-San Luis Potos\u00ed.json",
+  "n_polygon_areas": 58,
+  "n_rows_after_all_polygon_retention": 58,
+  "n_missing_outcome_rows": 1,
+  "missing_outcome_geo_ids": [
+    "24017"
+  ],
+  "unmatched_outcome_geo_count": 0,
+  "population_warnings": [],
+  "population_file": "Datos Nacionales\\POBLACION\\ITER_24XLSX20.xlsx",
+  "population_column": "pobfem",
+  "population_denominator_type": "female_population",
+  "population_rows_raw": 6729,
+  "population_rows_after_filtering": 58,
+  "population_municipalities": 58,
+  "population_aggregation_strategy": "municipality_total_rows_only",
+  "population_total_after_filtering": 1449804.0,
+  "age_adjustment_strategy": "age_structure_covariates_added",
+  "age_adjustment_columns": [
+    "age_share_female_60plus",
+    "age_share_female_15_49"
+  ],
+  "age_adjustment_source_columns": {
+    "age_share_female_60plus": "p_60ymas_f",
+    "age_share_female_15_49": "p_15a49_f"
+  },
+  "age_adjustment_older_priority_column": "age_share_female_60plus",
+  "age_adjustment_note": "These are age-structure controls, not direct age-standardized mortality rates. Direct age standardization requires age-specific outcome counts. Duplicate age controls are intentionally not added.",
+  "outcome_file": "Datos SLP\\MortalidadCAMA.xlsx",
+  "outcome_column": "defunciones",
+  "outcome_rows_raw": 58,
+  "outcome_rows_aggregated": 57,
+  "outcome_invalid_key_rows": 0,
+  "outcome_missing_count_rows": 1,
+  "has_year_dimension": false,
+  "exposure_files": [
+    {
+      "file": "Datos SLP\\AmbientalAGUA.xlsx",
+      "used": true,
+      "source_name": "ambientalagua",
+      "n_points": 78
+    },
+    {
+      "file": "Datos SLP\\AmbientalLADRILLERAS.xlsx",
+      "used": true,
+      "source_name": "ambientalladrilleras",
+      "n_points": 227
+    },
+    {
+      "file": "Datos SLP\\AmbientalMinasMetales.xlsx",
+      "used": true,
+      "source_name": "ambientalminasmetales",
+      "n_points": 3
+    },
+    {
+      "file": "Datos SLP\\AmbientalRETC.xlsx",
+      "used": true,
+      "source_name": "ambientalretc",
+      "n_points": 2355
+    }
+  ],
+  "missing_outcome_policy": "exclude",
+  "top_k": 10,
+  "bootstrap_draws": 100,
+  "n_rows_used_in_likelihood": 57,
+  "n_rows_predicted": 58,
+  "n_rows_modeled": 58,
+  "n_features_candidate": 20,
+  "n_features_used": 11,
+  "feature_columns_used": [
+    "ambientalagua_kernel_intensity",
+    "ambientalagua_nearest_source_m",
+    "ambientalagua_count_within_10000m",
+    "ambientalladrilleras_kernel_intensity",
+    "ambientalladrilleras_nearest_source_m",
+    "ambientalminasmetales_kernel_intensity",
+    "ambientalminasmetales_nearest_source_m",
+    "ambientalretc_kernel_intensity",
+    "ambientalretc_nearest_source_m",
+    "ambientalretc_count_within_5000m",
+    "ambientalretc_count_within_10000m"
+  ],
+  "age_control_columns_used": [
+    "control_age_share_female_60plus_z",
+    "control_age_share_female_15_49_z"
+  ],
+  "min_nonzero_feature": 5,
+  "corr_threshold": 0.98,
+  "population_min": 2016.0,
+  "population_max": 471011.0,
+  "population_total_modeled": 1449804.0,
+  "observed_rate_min_per_100k": 0.0,
+  "observed_rate_max_per_100k": 290.69767441860466,
+  "predicted_rate_min_per_100k": 39.879937419674164,
+  "predicted_rate_max_per_100k": 238.5162827610471,
+  "model_type": "discrete_negative_binomial_estimated_dispersion",
+  "model_fit_warnings": [],
+  "successful_bootstrap_fits": 100,
+  "requested_bootstrap_fits": 100,
+  "risk_map_geojson": "risk_map.geojson",
+  "single_family_sensitivity_outputs": [
+    "sensitivity_single_family_model_summary.csv",
+    "sensitivity_single_family_metrics.csv",
+    "sensitivity_single_family_rankings.csv"
+  ],
+  "bayesian_nb_inputs": [
+    "bayesian_nb_input.csv",
+    "bayesian_model_config.json"
+  ],
+  "spatial_adjacency_outputs": {
+    "matrix": "spatial_adjacency_matrix.csv",
+    "neighbors": "spatial_neighbors.csv",
+    "metadata": "spatial_adjacency_metadata.json"
+  },
+  "spatial_adjacency_summary": {
+    "geo_id_col": "geo_id",
+    "n_nodes": 58,
+    "n_edges": 136,
+    "is_symmetric": true,
+    "diagonal_zero": true,
+    "min_neighbors": 1,
+    "max_neighbors": 10,
+    "mean_neighbors": 4.689655172413793,
+    "isolates_before_connection": [],
+    "isolates_after_connection": [],
+    "n_components_after_connection": 1,
+    "connect_isolates": true,
+    "connect_components": true,
+    "n_artificial_edges": 0,
+    "artificial_edges": [],
+    "projected_epsg": 3857,
+    "spatial_prior_recommendation": "Use ICAR/CAR/BYM-style areal random effects with this adjacency matrix."
+  },
+  "bayesian_spatial_inputs": [
+    "bayesian_nb_input.csv",
+    "bayesian_spatial_model_config.json",
+    "spatial_adjacency_matrix.csv"
+  ]
+}

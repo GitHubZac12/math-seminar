@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "n_rows": 58,
+  "n_likelihood_rows": 57,
+  "missing_columns": [],
+  "adjacency_matrix_path": "spatial_adjacency_matrix.csv",
+  "adjacency_shape": [
+    58,
+    58
+  ],
+  "adjacency_symmetric": true,
+  "adjacency_diagonal_zero": true,
+  "min_neighbors": 1,
+  "max_neighbors": 10,
+  "mean_neighbors": 4.689655172413793,
+  "n_edges": 136
+}
